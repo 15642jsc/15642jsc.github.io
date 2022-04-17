@@ -6,17 +6,23 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Tag: 美文 | 姜抒辰的hexo博客</title>
+  <title>排列与组合公式 | 姜抒辰的hexo博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="人生若只如初见，何事秋风悲画扇">
-<meta property="og:type" content="website">
-<meta property="og:title" content="姜抒辰的hexo博客">
-<meta property="og:url" content="http://example.com/tags/%E7%BE%8E%E6%96%87/index.html">
+  <meta name="description" content="还记得暑假的时候jarjarbin上排列与组合把我上懵了，看起来很简单的东西这么难。。。jarjarbin也没有详细讲这个玩意，我就半懵半懂的。。。 最近在看书的时候发现了有将这方面的东西，不过我们首先先要来了解”!”是什么。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="排列与组合公式">
+<meta property="og:url" content="http://example.com/2022/04/17/%E6%8E%92%E5%88%97%E4%B8%8E%E7%BB%84%E5%90%88%E5%85%AC%E5%BC%8F/index.html">
 <meta property="og:site_name" content="姜抒辰的hexo博客">
-<meta property="og:description" content="人生若只如初见，何事秋风悲画扇">
+<meta property="og:description" content="还记得暑假的时候jarjarbin上排列与组合把我上懵了，看起来很简单的东西这么难。。。jarjarbin也没有详细讲这个玩意，我就半懵半懂的。。。 最近在看书的时候发现了有将这方面的东西，不过我们首先先要来了解”!”是什么。">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://bkimg.cdn.bcebos.com/pic/b7003af33a87e9502845f2701d385343fbf2b45f?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U4MA==,g_7,xp_5,yp_5/format,f_auto">
+<meta property="article:published_time" content="2022-04-17T12:00:06.000Z">
+<meta property="article:modified_time" content="2022-04-17T12:56:00.406Z">
 <meta property="article:author" content="姜抒辰">
+<meta property="article:tag" content="数学">
+<meta property="article:tag" content="排列与集合">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://bkimg.cdn.bcebos.com/pic/b7003af33a87e9502845f2701d385343fbf2b45f?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U4MA==,g_7,xp_5,yp_5/format,f_auto">
   
     <link rel="alternative" href="/atom.xml" title="姜抒辰的hexo博客" type="application/atom+xml">
   
@@ -199,65 +205,189 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-排列与组合公式" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2022" class="archive-year">2022</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2022/04/16/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F-%E5%AF%BB%E6%9D%8E%E7%99%BD/" class="archive-article-date">
-  	<time datetime="2022-04-16T07:26:30.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-04-16</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2022/04/16/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F-%E5%AF%BB%E6%9D%8E%E7%99%BD/">美文欣赏-寻李白</a>
+    <h1 class="article-title" itemprop="name">
+      排列与组合公式
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2022/04/17/%E6%8E%92%E5%88%97%E4%B8%8E%E7%BB%84%E5%90%88%E5%85%AC%E5%BC%8F/" class="archive-article-date">
+  	<time datetime="2022-04-17T12:00:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-04-17</time>
+</a>
+        
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>还记得暑假的时候jarjarbin上排列与组合把我上懵了，看起来很简单的东西这么难。。。jarjarbin也没有详细讲这个玩意，我就半懵半懂的。。。</p>
+<p>最近在看书的时候发现了有将这方面的东西，不过我们首先先要来了解”!”是什么。</p>
+<span id="more"></span>
+
+<h2 id="“！”"><a href="#“！”" class="headerlink" title="“！”"></a>“！”</h2><p>当这个东西在文章里的时候作者先要表示感叹或者其他意思。但在数学里，它的意思是阶乘。</p>
+<p>阶乘是什么意思呢，举个例子。<br>$$<br>7!&#x3D;7×6×5×4×3×2×1<br>$$<br>懂了吧。就是不断往下乘的意思，知道1为止。</p>
+<p>但是，这个数只能用于正整数，0也可以，你猜0！&#x3D;多少？数学家花了许久得出<strong>0！&#x3D;1</strong> ，至于为什么，我们下面会给出答案。</p>
+<p>这个符号产生的数往往会很大，但这个符号只用于排列与组合，让我们来娱乐一下。<br>$$<br>10！&#x3D;3628800<br>$$</p>
+<p>$$<br>20！&#x3D;3628800<br>$$</p>
+<p>$$<br>100！&#x3D;93326215443944152681699238856266700490715968264381621468592963895217599993229915608941463976156518286253697920827223758251185210916864000000000000000000000000<br>$$</p>
+<p>好了，我们对于阶乘了解的差不多 ，接下来我们来了解一下帕斯卡三角形。</p>
+<h2 id="帕斯卡三角形"><a href="#帕斯卡三角形" class="headerlink" title="帕斯卡三角形"></a>帕斯卡三角形</h2><p>这个三角形是这样的：</p>
+<p><img src="https://bkimg.cdn.bcebos.com/pic/b7003af33a87e9502845f2701d385343fbf2b45f?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U4MA==,g_7,xp_5,yp_5/format,f_auto" alt="img"></p>
+<p>当然，这个三角形也可以叫杨辉三角，杨辉比帕斯卡早发现几百年这个三角形。</p>
+<p>在排列与组合的问题中，这个三角形都能实现，<strong>要记住，这个三角形第一个数是0.</strong></p>
+<p>以上是用bash写的，它也可以用c++代码实现</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iomanip&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">const</span> <span class="type">int</span> n = <span class="number">15</span>;</span><br><span class="line">    <span class="type">const</span> <span class="type">int</span> m = <span class="number">2</span> * n<span class="number">-1</span>;</span><br><span class="line">    <span class="type">int</span> arr[n + <span class="number">1</span>][m] = &#123; <span class="number">0</span> &#125;;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        arr[i][n - i- <span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">        arr[i][n + i <span class="number">-1</span>] = <span class="number">1</span>;</span><br><span class="line"> </span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt; n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = n - i + <span class="number">1</span>; j &lt; n<span class="number">-2</span>+i; j = j + <span class="number">2</span>)</span><br><span class="line">            arr[i][j] = arr[i - <span class="number">1</span>][j - <span class="number">1</span>] + arr[i - <span class="number">1</span>][j + <span class="number">1</span>];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> p;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = <span class="number">0</span>; j &lt; n - i - <span class="number">1</span>; j++)</span><br><span class="line">            cout &lt;&lt; <span class="string">&quot;    &quot;</span>;</span><br><span class="line">        p = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = n - i - <span class="number">1</span>; p &lt; i + <span class="number">2</span>; j = j + <span class="number">2</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            cout &lt;&lt; <span class="built_in">setw</span>(<span class="number">4</span>) &lt;&lt; arr[i][j] &lt;&lt; <span class="string">&quot;    &quot;</span>;</span><br><span class="line">            p = p + <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        cout &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>当然它还可以回答这几个问题：</p>
+<p>第五行三角形中的数是什么？</p>
+<p>第七行正四面体的数是多少？</p>
+<p>第六行斐波那奇数是多少？</p>
+<p>这是一个可怕的东西，除非你有硕大无朋的脑袋，你最好还是避开它，接下来我们要讲的东西是高二的，也有可能听不懂，但是有公式。</p>
+<h2 id="排列与组合"><a href="#排列与组合" class="headerlink" title="排列与组合"></a>排列与组合</h2><p>当你可以吃5种菜时，有多少种排列组合？答案是5！&#x3D;120.如果你对于这个答案还不理解的话你可以用3种菜试一试。也就是说<br>$$<br>排列组合数（当所有事物都可以使用或更换的情况下）&#x3D;数量！<br>$$<br>当你有7种菜可以选择，但你只能选择其中的4种菜时你的选择数量<br>$$<br>&#x3D;\frac{7！}{4！}<br>$$<br>，约分一下， 你选择的数量就是7×6×5.我也不多解释了，这个可怕的话题解释多了也没有用，直接套公式才是最好的选择。公式为：<br>$$<br>所有排列&#x3D;\frac{（你可以选择的所有数量）！}{（你不能选择的数量）！}<br>$$<br>上一个方法也可以使用这个公式，因为我们知道0！&#x3D;1.</p>
+<p>来个简单的，某种外星人有6个脚趾，而他们一共有210个脚趾，那么他们一共有210÷6&#x3D;35个外星人。</p>
+<p>让我们观察一下，就可以得到<br>$$<br>组合的数量&#x3D;\frac{（所有数量）！}{（你可以选择的数量）！×（你不可以选择的数量）}<br>$$<br>你是不是感觉没有听懂？那我选一道题目给你做做，就会理解的。</p>
+<p>将七支笔放入两个笔筒中，每个笔筒至少放两只，那么有几种方法？（ ）</p>
+<p>对了，你是不是要问怎么没有用到杨辉三角？</p>
+<p>那我告诉你，8个数，选5个，再你看第8行第五个数,是不是56？再你验算一下，答案是不是56？</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">数学</a>
         		</li>
       		 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">美文</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">排列与集合</a>
         		</li>
       		
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2022/04/17/%E6%8E%92%E5%88%97%E4%B8%8E%E7%BB%84%E5%90%88%E5%85%AC%E5%BC%8F/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
   
   
-    </div></section>
+    <a href="/2022/04/16/%E7%BE%8E%E6%96%87%E6%AC%A3%E8%B5%8F-%E5%AF%BB%E6%9D%8E%E7%99%BD/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">美文欣赏-寻李白</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-    
+  
+  <div id="SOHUCS" sid="排列与组合公式" ></div> 
+<script charset="utf-8" type="text/javascript" src="//changyan.sohu.com/upload/changyan.js" ></script>
+<script type="text/javascript">
+    window.changyan.api.config({
+        appid: "cyw1p7MRf",
+        conf: "aefb1463d432ccda81edf710a5305874"
+    });
+</script>
+</script>
+  
 
+  
+
+  
 
           </div>
         </div>
@@ -296,9 +426,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: true,
 		toc_hide_index: true,
